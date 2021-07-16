@@ -1,0 +1,55 @@
+/* reset styles */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 100;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+  display: block;
+}
+.layout {
+  padding: 3rem 3.5rem;
+}
+.message {
+  display: block;
+}
+.error-message {
+  width: 100vw;
+  text-align: center;
+  color: red;
+  background-color: rgba(255, 0, 0, 0.253);
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+}
+.categoryContainer {
+  padding: 1.2rem 2rem;
+  margin-bottom: 1.1rem;
+  border-radius: 5px 8px;
+}
+
+.bullet {
+  width: 0.8rem;
+  height: 0.8rem;
+  display: inline-block;
+  margin-right: .8rem;
+  border-radius: 50%;
+}
+.categoryContainer p{
+  line-height: 1.5rem;
+}
+

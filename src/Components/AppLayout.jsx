@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Category from "./src/Components/Category";
-import Loading from "./src/Components/Loading";
-import Erorr from "./src/Components/Erorr";
-import categorizeItems from "./src/utils/categorizeResponse";
+import Category from "./Category";
+import Loading from "./Loading";
+import Erorr from "./Erorr";
+import categorizeItems from "../utils/categorizeResponse";
 import Axios from "axios";
 
-const api = "https://api.acty.se";
+const api = process.env.URL;
 const bgShades = ["#f5ffee", "#fffff1", "#f2f7ff"];
 const BulletColors = ["#9fd3a5", "#f2e888", "#88bff2"];
 
